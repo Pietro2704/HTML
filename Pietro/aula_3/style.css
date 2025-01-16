@@ -1,0 +1,42 @@
+/* 
+Existem 3 tipos de CSS:
+
+Inline -> adiciona o atributo 'style' na própria tag
+Interno -> Adiciona a tag 'style' dentro da tag head
+Externo -> Cria um arquivo '.css' add uma tag link para o css externo
+*/
+
+html{
+    height: 100vh;
+}
+
+h1{
+    border: solid black 2px;
+    margin: 2px;
+    padding: 24px;
+    font-size: 36pt;
+    width: 90vw;
+    height: 30vh;
+    text-align: center;
+    background-image: url(https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/07/21/1275952934-7927a1772a5038ad40b26c07cab23395.jpg);
+}
+
+span{
+    color: green;
+}
+
+p{
+    font-size: 2rem;
+}
+
+li{
+    font-size: 24px;
+}
+
+a{
+    font-size: 50%;
+}
+
+img{
+    width: 300px;
+}
