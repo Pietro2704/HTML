@@ -1,0 +1,45 @@
+:root{
+    --cor-1: #0F319D;
+    --cor-2: #EE7615;
+    --cor-3: #62B7D4;
+    --cor-4: #316C2C;
+    --cor-5: #FF3727;
+}
+
+.corpo{
+    height: 100%;
+    background-image: linear-gradient(180deg, var(--cor-3), var(--cor-1));
+}
+
+.titulo{
+    text-align: center;
+    color: var(--cor-5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-shadow: 7px 3px 6px black;
+}
+
+.subtitulo{
+    color: var(--cor-2);
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 24px;
+    text-shadow: 7px 3px 6px black;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.paragrafo{
+    color: white;
+    font-size: 20px;
+    text-indent: 24px;
+    padding: 8px;
+}
+
+
+.link{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
