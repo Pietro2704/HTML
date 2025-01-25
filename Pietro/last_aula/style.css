@@ -1,0 +1,47 @@
+
+main{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: black;
+    /* border: 1px solid black; */
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 60%;
+    align-self: center;
+    margin-bottom: 24px;
+}
+
+/* .campo{
+    margin: auto;
+} */
+
+.btns{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+ul{
+    list-style-type: none;
+    /* border: 1px solid black; */
+}
+
+li{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 300px;
+}

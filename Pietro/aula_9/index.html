@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+    <input type="text" name="texto" id="texto">
+    <button class="quadrado" id="quadrado"></button>
+
+    <script>
+        $("#quadrado").on('click', () => {
+            $("#quadrado").css('background-color', 'red')
+
+            $("#quadrado").text("")
+
+            $("#quadrado").append(
+                $("<h1></h1>").text(
+                    $("#texto").val()
+                ))
+        })
+
+        // $("#quadrado").on('mouseenter', ()=>{
+        //     $("#quadrado").css('background-color', 'blue')
+        //     $("#quadrado").text("")
+
+        //     h1.text("Entrou")
+        //     $("#quadrado").append(h1)
+        // })
+
+        // $("#quadrado").on('mouseout', ()=>{
+        //     $("#quadrado").css('background-color', 'green')
+        //     $("#quadrado").text("")
+        //     h1.text("Saiu")
+        //     $("#quadrado").append(h1)
+        // })
+
+        // div.addEventListener("click", () => {
+        //     div.style.backgroundColor = "blue"
+        //     div.innerHTML = "<h1>Clicou</h1>"  // Coloca tag tbm
+        //     // div.textContent = div.textContent + "Mundo"       // Não coloca tag
+        // })
+
+        // //mouseenter
+        // div.addEventListener("mouseenter", () => {
+        //     div.style.backgroundColor = "red"
+        //     div.innerHTML = "<h1>Entrou</h1>"  // Coloca tag tbm
+        //     div.style.cursor = "pointer"
+        //     // div.textContent = div.textContent + "Mundo"       // Não coloca tag
+        // })
+
+        // //mouseout
+        // div.addEventListener("mouseout", () => {
+        //     div.style.backgroundColor = "green"
+        //     div.innerHTML = "<h1>Saiu</h1>"  // Coloca tag tbm
+        //     // div.textContent = div.textContent + "Mundo"       // Não coloca tag
+        // })
+
+    </script>
+</body>
+
+</html>

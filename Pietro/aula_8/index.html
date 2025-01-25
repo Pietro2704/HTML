@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="https://i.pinimg.com/474x/1c/59/dc/1c59dcac460e6c982c0897f4a4773bb2.jpg"
+        type="image/x-icon">
+
+    
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro de Pessoa</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <form>
+
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="">
+                </div>
+
+                <div class="campo">
+                    <input type="radio" name="sexo" id="" value="M">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="" value="F">
+                    <label for="feminino">Feminino</label>
+                </div>
+
+                <div class="campo">
+                    <label for="idade">Idade</label>
+                    <input type="number" name="idade" id="">
+                </div>
+
+                <div class="campo">
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="">
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="">
+                </div>
+
+                <div class="campo">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" id="">
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="">
+                </div>
+
+                <button class="fim" id="btn" type="button">Enviar</button>
+            </form>
+
+        </section>
+
+        <section id="tabela">
+            <table>
+                <!-- nome das colunas -->
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sexo</th>
+                        <th>Idade</th>
+                        <th>CPF</th>
+                        <th>email</th>
+                        <th>Usuario</th>
+                        <th>Senha</th>
+                    </tr>
+                </thead>
+                <!-- dados -->
+                <tbody>
+                    <tr>
+                        <td>Maria</td>
+                        <td>F</td>
+                        <td>22</td>
+                        <td>12345678910</td>
+                        <td>maria.alencar@gmail.com</td>
+                        <td>mariaAlencar007</td>
+                        <td>123</td>
+                    </tr>
+                    <tr>
+                        <td>João</td>
+                        <td>M</td>
+                        <td>34</td>
+                        <td>89115672340</td>
+                        <td>joao.silva@hotmail.com</td>
+                        <td>joaoSilva666</td>
+                        <td>777</td>
+                    </tr>
+                </tbody>
+                <!-- resumo final -->
+                <tfoot>
+                    <tr>
+                        <td>Totais de Pessoas: 2</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>
+
+
+<!-- radio -->
+<!-- number -->
+<!-- email -->
+<!-- text -->
+<!-- password -->
